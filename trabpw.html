@@ -7,8 +7,8 @@
 </head>
 <body>
     <div>
-        <h1>Cadastro de DEVs</h1>
-        <p>Complete com as suas informações</p>
+        <h1>Cadastro Técnico em Informática</h1>
+        <p>Complete com as suas informações profissionais</p>
         <br>
 
     </div>
@@ -23,12 +23,53 @@
                 <label for="sobrenome">Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
+
+            <div>
+                <label for="telefone">Número de telefone</label>
+                <input type="number" name="telefone" id="telefone">   
+            </div>
         </fieldset>
 
         <div>
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
         </div>
+
+        <div>
+            <label for="diaa">Informe a data do seu aniversário:</label>
+            <input type="date" id="diaa" name="diaa" />
+          </div>
+
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
 
         <div>
             <label for="desenvolve">De qual lado das aplicações você desenvolve?</label>
@@ -42,6 +83,12 @@
                 <input type="radio" name="devweb" value="fullstack" > FullStack
             </label>
         </div>
+
+        <fieldset>
+            <div>
+                <label>Linguagens tecnológicas que você tem experiência</label>
+            </div>
+        </fieldset>
 
     </form>
 </body>
