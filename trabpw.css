@@ -3,12 +3,12 @@
     padding: 0;
 }
 #titulo{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     margin-left: 7%;
 }
 #subtitulo{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     color: black;
     margin-left: 10%;
 }
@@ -23,6 +23,7 @@ body{
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 input , select , button , textarea{
     border-radius: 20px;
