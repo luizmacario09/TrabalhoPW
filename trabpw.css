@@ -58,3 +58,29 @@ img{
     width: 200px;
     
 }
+.botao{
+    font-size: 1.2em;
+    background: rgb(92, 88, 220);
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(255, 249, 249);
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+    position: absolute;
+    top:130%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover {
+    background: rgb(71, 73, 210);
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow:none;
+}
+.botao select{
+    cursor:pointer;
+}
+#check{
+    display: inline-block;
+}
